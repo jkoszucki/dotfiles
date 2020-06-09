@@ -1,3 +1,6 @@
+# Shows every command that runs when shell is load.
+# set -x
+
 # Local variables 
 # ------------------------------------------------------------------------------------------ 
 
@@ -13,17 +16,23 @@ export CLICOLOR=1
 # Set vim as a default text editor.
 export EDITOR=vim
 
+# Make conda great again! This allows conda to work from bash scripts.
+#export -f conda
+#export -f __conda_activate
+#export -f __conda_reactivate
+#export -f __conda_hashr
+
 # Local variables for Bifrost and BlastFrost
 
-C_INCLUDE_PATH=/usr/local/include/
-CPLUS_INCLUDE_PATH=/usr/local/include/
-LD_LIBRARY_PATH=/usr/local/lib/                
-LIBRARY_PATH=/usr/local/lib/                
+# C_INCLUDE_PATH=/usr/local/include/
+# CPLUS_INCLUDE_PATH=/usr/local/include/
+# LD_LIBRARY_PATH=/usr/local/lib/                
+# LIBRARY_PATH=/usr/local/lib/                
 
-export C_INCLUDE_PATH
-export CPLUS_INCLUDE_PATH
-export LD_LIBRARY_PATH
-export LIBRARY_PATH
+# export C_INCLUDE_PATH
+# export CPLUS_INCLUDE_PATH
+# export LD_LIBRARY_PATH
+# export LIBRARY_PATH
 
 
 # Customisation of terminal
@@ -58,6 +67,12 @@ alias mauve="${HOME_DIR_ALIAS}/Applications/Mauve.app/Contents/MacOS/JavaAppLaun
 alias mendeley="/Applications/Mendeley\ Desktop.app/Contents/MacOS/Mendeley\ Desktop&"
 alias BlastFrost="${HOME_DIR_ALIAS}/test/BlastFrost/build/BlastFrost"
 alias jsonExtract="${HOME_DIR_ALIAS}/PycharmProjects/json/jsonExtract.py"
+alias PhageVisualisation='python /Users/januszkoszucki/PycharmProjects/Phages/PhageVisualisation.py'
+alias artemis='/usr/local/anaconda3/bin/art'
+alias virsorter='/Users/januszkoszucki/Programs/Virsorter/virsorter-script/wrapper_phage_contigs_sorter_iPlant.pl'
+# alias phispy='/usr/local/anaconda3/envs/phispy-envs/bin/PhiSpy.py' # Problem with python environmental variables.
+alias addphages='python /Users/januszkoszucki/PyCharmProjects/AddPhages/addphages.py'
+
 
 alias ll="ls -l"
 alias la="ls -la"
@@ -67,8 +82,9 @@ alias cc="clear"
 alias vb="vim ${HOME_DIR_ALIAS}/.bash_profile"
 alias sb="source ${HOME_DIR_ALIAS}/.bash_profile"
 alias cp="cp -i"
+alias del="rmtrash"
 
-# Conda made some mess here
+# Conda initialisation
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -85,4 +101,9 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# Source broot
 source /Users/januszkoszucki/Library/Preferences/org.dystroy.broot/launcher/bash/br
+
+# Shows every command that runs when shell is load.
+# set +x
+# Type in terminal bash --login to see which command takes most of the time.

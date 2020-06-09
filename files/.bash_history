@@ -1,500 +1,332 @@
-history > his
-vim his
 cc
-clear
+ll
+ll
+ll
+ll -h
+ll
+ll -h
+vim phages.csv 
+ll
+mv phages.csv Education/
+ll
+cd Education/
+ll
+mkdir DataCamp
+mv phages.csv DataCamp/
+cd DataCamp/
+ll
+jupyter notebook
+ll
+mv phages.csv ~/Data/PhageDetectionAnalysis/
+ll
+cd ..
+del DataCamp/
+cd ~/Data/PhageDetectionAnalysis/
+ll
+del analysis/
+mkdir jupyter
+mv phages jupyter/
+ll
+mv jupyter/phages .
+cd jupyter/
+ll
+mv ../phages.csv .
+ll
+jupyter notebook
+ll
+jupyter notebook
+ll
+jupyter notebook
+ll
+cd Data/PhageDetectionAnalysis/
+ll
+cd jupyter/
+ll
+juyter notebook
+jupyter notebook
+cc
+ll
+cd Data/PhageDetectionAnalysis/
+l
+cd
+cd Movies/
+ll
+cd ..
+ll
+cd Programs/
+ll
+cd ..
+ll
+mv Pictures/my_data.xlsx Documents/
+ll
+cd Do
+cd Documents/
+ll
+del League\ of\ Legends/
+del ComparationOfGraphs.xlsx 
+mv my_data.xlsx ../Desktop/
+cd
+cd Data/PhageDetectionAnalysis/jupyter/
+ll
+la
+.ipynb_checkpoints/
+cd .ipynb_checkpoints/
+ll
+jupyter notebook
+ll
+cd ..
+ll
+del PhaesAnalysis.ipynb 
+f     89419  4 cze 17:20 temp.png
+python
+cc
+ll
+cd Data/PhageDetectionAnalysis/
+ll
+cd jupyter/
+lll
+ll
+open temp.png 
+open temp.png 
+open temp.png 
+ll
+jupyter notebook
+cc
+conda info
+conda init -h
+ls
+ls; cd Downloads/;ls;cd ..
+ls;cd Downloads/;ls;cd ..
+ls;cd Data;ls;cd ..
+ls;cd Data;ls;cd ..
 cc
 cc
+ll
+mv ~/Downloads/sequence.gb ./INF078.gb
+ll
+mv ~/Downloads/sequence\ \(1\).gb ./Kp52.145.gb
+mv ~/Downloads/sequence.gb ./NJST258_1.gb
+mv ~/Downloads/sequence\ \(1\).gb ./MSB1_8A.gb
+ll
+mv *.gb ./Data/PhageDetectionAnalysis/przemek/
 cc
-cb
-vb
+cd Data/data/Klebsiella_chromosomes/
+ll
+del 1
+ll
+ll
+cd
+mv ~/Downloads/sequence.gb .
+ll
+mv sequence.gb 1158.gb
+ll
+artermis&
+conda env list
+artemis
+ll
+vim 1158.gb 
+del 1158.gb 
+mv  ~/Downloads/sequence.gb .
+ll
+vim sequence.gb 
+del sequence.gb 
+mv  ~/Downloads/sequence.gb .
+ll
+artemis&
+del sequence.gb 
+ll
+cd Data/PhageDetectionAnalysis/
+ll
+cd phages/
+ll
+cd ../przemek/
+ll
+cd genomes/
+ll
+vim MSB1_8A/
+vim NJST258_1/
+vim MSB1_8A/
+ll
+ll `
+ll ~
+cd ..
+ll
+mv *.gb genomes/
+ll
+cd genomes/
+ll
+artemis&
+ll
+artemis
+pwd
+ll
+vim my_seq.gb 
+del my_seq.gb 
+vim biopython_cookbook.txt
+ll
+vim biopython_cookbook.txt 
+mv biopython_cookbook.txt ~/Education/
+cp INF078.gb ~/TestPython/
+cd ~/TestPython/
+ll
+mkdir AddPhages
+mv INF078.gb AddPhages/
+cd  AddPhages/
+mkdir input
+ll
+mv INF078.gb input/
+cp ~/Data/PhageDetectionAnalysis/przemek/genomes/INF078/INF078_coordinates_phispy .
+ll
+mv INF078_coordinates_phispy input/
+ll
+cd input/
+ll
+conda env list
+which python
+jobs
+top
+cd ..
+ll
+mkdir output
+ll
+cd output/
+ll
+del INF078
+ll
+vim INF078.gb 
+artemis
+head INF078.gb 
+tail INF078.gb 
+vim INF078.gb 
+l
+ll
+vim INF078_phages.gb 
+vim INF078_phages.gb 
+vim INF078_phages.gb 
+ll
+cd ~/Data/PhageDetectionAnalysis/
+ll
+cd przemek/genomes/
+ll
+pwd ~/
+pwd ~/PycharmProjects/AddPhages/addphages.py 
+cd ~/PycharmProjects/AddPhages/addphages.py 
+pwd
+cd ~/PycharmProjects/AddPhages/
+pwd
 sb
-source .bash_profile
-vb
-source .bash_sh_profile
-source .bash_profile
-sb
-$?
-echo $?
-sb
-echo $?
-sb
-$_
-vb
-vb
-sb
-cc
-cc
-ls -la
+cd
+cd ~/Data/PhageDetectionAnalysis/
+ll
+cd przemek/
+cd genomes/
+ll
 
-mkdir dotfiles
-cp .* dotfiles/
-cd dotfiles/
+chmod 744 addphages.sh 
 ll
-la
-vb
+mv addphages.sh ../../scripts/
+vim ../../scripts/
+mv ../../scripts/addphages.sh .
 ll
-la
+del addphages.sh 
+cd INF078
+ll
+cat INF078_coordinates_* >> coordinates
 ll
 cd ..
-rm -rf dotfiles/
 ll
-la
-mkdir dotfiles
-rm backup 
-cp -rf .* dotfiles/
+cd Kp52.145
 ll
-cd dotfiles/
+cat *coordinates_* >> coordinates
 ll
-la
+cd ../
+ll
+cd MSB1_8A
+ll
+cat *coordinates_* >> coordinates
 cd ..
-rm rf dotfiles/
-rm -rf dotfiles/
 ll
-la
-mkdir dotfiles
-cp -rf .* dotfiles/
+cd NJST258_1
 ll
-cd dotfiles/
+cat *coordinates_* >> coordinates
+ll
+cd ..
+ll
+addphages --coordinates INF078/coordinates --genbank INF078.gb --output .
+ll
+addphages --coordinates Kp52.145/coordinates --genbank Kp52.145 --output .
+ll
+addphages --coordinates Kp52.145/coordinates --genbank Kp52.145.gb --output ./
+ll
+cd Kp52.145
+ll
+mv Kp52.145_phahes_virsorter.fasta Kp52.145_phages_virsorter.fasta
+ll
+cd ..
+ll
 tree
-broot 
 ll
-cd ..
-rm dotfiles/
-rm -rf dotfiles/
-man rm
 ll
-man cp
+addphages --coordinates Kp52.145/coordinates --genbank Kp52.145.gb --output ./
+ll
+addphages --coordinates INF078/coordinates --genbank INF078.gb --output ./
+addphages --coordinates MSB1_8A/coordinates --genbank MSB1_8A.gb --output ./
+addphages --coordinates NJST258_1/coordinates --genbank NJST258_1 --output ./
+addphages --coordinates NJST258_1/coordinates --genbank NJST258_1.gb --output ./
+ll
+artemis8
+artemis&
+ll
+del .INF078_phages.gb 
+del .Kp52.145_phages.gb 
+ll
+ll
+addphages --coordinates NJST258_1/coordinates --genbank NJST258_1.gb --output ./
+addphages --coordinates NJST258_1/coordinates --genbank NJST258_1.gb --output ./
+ll
+addphages --coordinates INF078/coordinates --genbank INF078.gb --output ./
+addphages --coordinates Kp52.145/coordinates --genbank Kp52.145.gb --output ./
+addphages --coordinates MSB1_8A/coordinates --genbank MSB1_8A.gb --output ./
+addphages --coordinates NJST258_1/coordinates --genbank NJST258_1.gb --output ./
+ll
+artemis*
+artemis&
+cc
+cc
+ll
+cd Data/PhageDetectionAnalysis/
+ll
+cd przemek/genomes/
+ll
+python
+conda list
+conda list | grep 'biopython'
+python
+python
+cc
+cc
+cd Education/biopython_cookbook.txt 
+vim Education/biopython_cookbook.txt 
+cd TestPython/AddPhages/output/
+artemis&
+ll
+del INF078
+del INF078.gb 
+del INF078phages.gb 
+ll
+artemis&
+artemis
+artemis
+vb
 vb
 sb
-la
-man cp
-man cp
-find . -name '.*' -type f 
-find ./ -name '.*' -type f 
-find ./ -name '.*' -type f -maxdepth 1
-find ./ -name '.*' -type f -maxdepth 0
-find ./ -name '.*' -type f -maxdepth 2
-find ./ -name '.*' -type f -maxdepth 1
-ll
-la
-find .vimrc
-find ./ -name '.*' -type f -maxdepth 1
-.//
-.//.
-cd .//.
-ls
-find -name '.*' -type f -maxdepth 1
-find . -name '.*' -type f -maxdepth 1
-find . -name '.*' -type f -maxdepth 1
-find . -name '.*' -type f -maxdepth 1
-find -name '.*' -type f -maxdepth 1
-find . -name '.*' -type f -maxdepth 1
-find . -name '.*' -type f -maxdepth 1
-
-find . -name '.*' -type f -maxdepth 1 | cp dotfiles
-find . -name '.*' -type f -maxdepth 1 | cp
-find . -name '.*' -type f -maxdepth 1 -exec cp {} dotfiles
-find . -name '.*' -type f -maxdepth 1 -exec cp {} dotfiles \;
-cd dotfiles 
-mkdir dotfiles
-cd dotfiles 
-cd dotfiles
-ll
-la
-vim dotfiles 
-rm dotfiles 
-mkdir dotfiles
-ll
-find . -name '.*' -type f -maxdepth 1 -exec cp {} dotfiles \;
-cd dotfiles/
-ll
-la
-vim .python_history 
-rm .python_history 
-ll
-l
-LA
-la
-vim .commands.txt 
-rm .commands.txt 
-cd ~/
-la
-cat .commands.txt ~/Education/usefulmaterials.txt 
-vim ~/Education/usefulmaterials.txt 
-cat ~/Education//usefulmaterials.txt .commands.txt > usefulmaterials.txt
-ls
-vim usefulmaterials.txt 
-cp usefulmaterials.txt Education/
-rm usefulmaterials.txt 
-vim ~/Education/usefulmaterials.txt 
-ls
-la
-cd dotfiles/
-ll
-la
-vim .gitignore 
-man diff
-mkdir files
-rm files
-cd ..
-rm dotfiles/
-rm -rf dotfiles/
-mkdir dotfiles/files
-man mkdir
-mkdir -p dotfiles/files
-tree dotfiles/
-cc
-find . -name '.*' -type f -maxdepth 1 -exec cp {} dotfiles/files \;
-cd dotfiles/
-ll
-mkdir scripts
-cd scripts/
-cd ..
-ll
-cd scripts/
-ll
-vim install_dotfiles.sh
-for file in "$@"; do echo ${file}; done
-cd ../files/
-for file in "$@"; do echo ${file}; done
-for f in "."/*
-for f in "."/*:
-for f in "."/*; do echo $(basename $f); done
-vim sc.sh
-bash sc.sh
-ls
-la
-bash sc.sh
-vim sc.sh 
-bash sc.sh
-cat ../scripts/install_dotfiles.sh sc.sh 
-cat ../scripts/install_dotfiles.sh sc.sh  > ../scripts/install_dotfiles.sh 
-rm sc.sh 
-cd ../scripts/
-ll
-la
-vim install_dotfiles.sh 
-la
-head 4 install_dotfiles.sh 
-head -4 install_dotfiles.sh 
-head -6 install_dotfiles.sh 
-vim install_dotfiles.sh 
-bash install_dotfiles.sh 
-man ln
-vim install_dotfiles.sh 
-cc
-vc
-jobs
+addphages
 vb
-cc
-la
-cd ..
+sb
+addphages
+vb
+sb
 ll
-la
-cd ..
-la
 ll
-man git
-git satus
-git status
-git add dotfiles
-git --version
-git init
 ll
-la
-vim .git
-gs
-git status
-git add dotfiles
-git status
-git commit -m 'Upload personal dotfiles'
 ll
-l
-ls
-ll | awk '{print $9}'
-la | awk '{print $9}' |  la | awk '{print $9}'
-la | awk '{print $9}' 
-la | awk '^[A-Z]{print $9}' 
-la | awk '{print $9}^[A-~]' 
-la | awk '{print $9}^[A-Z]' 
-la | awk '{print $9}' | grep '^[A-Z]'
-la | awk '{print $9}' | grep '^[A-Z]|^.*' 
-la | awk '{print $9}' | grep '^[A-Z]\|^.*' 
-la | awk '{print $9}' | grep '^[A-Z]\|^\.*' 
-la | awk '{print $9}' | grep '^[A-Z]\|^.' 
-la | awk '{print $9}' | grep '^.*' 
-la | awk '{print $9}' | grep '.*' 
-la | awk '{print $9}' | grep '.' 
-la | awk '{print $9}' | grep '^.' 
-la | awk '{print $9}' 
-la | awk '{print $9}' | grep '^[A-Z]'
-la | awk '{print $9}' | grep '^.'
-la | awk '{print $9}' | grep '.'
-la | awk '{print $9}' | grep '.*'
-la | awk '{print $9}' | grep '[^.]*'
-la | awk '{print $9}' | grep '[^.]*'
-la | awk '{print $9}' | grep '.[^.]*'
-la | awk '{print $9}' | grep -r search '[^.]*'
-la | awk '{print $9}' | grep -r search '^.*'
-la | awk '{print $9}' | grep -r search '.*'
-la | awk '{print $9}' | grep -r search *
-cc
-man grep
-la | awk '{print $9}' | grep '^[A-Z]'
-la | awk '{print $9}' | grep '^[A-Z]' >> .gitignore
-git status
-git status
-git branch
-git remote
-man git remote
-git remote -h
-cd PycharmProjects/json/
-git status
-git remote
-git branch
-cd ~/
-ll
-git status
-git diff origin/master..HEAD
-git diff master..HEAD
-git diff origin..HEAD
-git status
-cd PycharmProjects/json/
-git status
-git diff origin/addclasses
-cd ~/
-git branches
-git branches
-git branche
-git branch
-man git add origin
-man git add
-man git add
-man git add
-man git add
-man git
-git remote add origin https://github.com/jkoszucki/dotfiles
-git remote
-git push -u origin master
-git remote
-git status
-vim .git
-cd ~/PycharmProjects/json/
-git status
-git add jsonExtract.py 
-git status
-git remote
-git commit -m 'idk'
-git commit
-git push -u origin master
-git status
-git push -u addclasses master
-git branch
-git status
-git checkout master
-status branch
-git branch
-git status
-history > his.txt
-broot his.txt 
-vim his.txt 
-rm his.txt 
-cc
-git branch
-man git push
-history 5
-
-git push https://github.com/jkoszucki/dotfiles assclasses
-git push https://github.com/jkoszucki/ExtractJSON addclasses
-ls -l
-ll
-cd ~/
-ll
-rm his 
-la
-git status
-la | grep
-la | grep *
-find '^.8'
-find '^.8'
-find '^.*'
-find '.*'
-find '*'
-find . '*'
-man find
-find . '*' -depth 1
-find . '*' -depth 1 | sort
-find . '*' -type f -depth 1 | sort
-find . '*' -type d -depth 1 | sort
-find . -name '*' -type f -depth 1 -path ./dotfiles -prune -o | sort
-find . -name '* && ' -type f -depth 1 | sort
-la
-ll
-la
-ls
-find . '*' -depth 1 | sort
-./.CFUserTextEncoding
-./.DS_Store
-./.Trash
-./.bash_history
-./.bash_profile
-./.bash_sessions
-./.cache
-./.commands.txt
-./.conda
-./.condarc
-./.config
-./.cups
-./.dropbox
-./.emacs.d
-./.git
-./.gitconfig
-./.gitignore
-./.ipynb_checkpoints
-./.ipython
-./.jupyter
-./.lesshst
-./.local
-./.matplotlib
-./.parallel
-./.python_history
-./.vim
-./.viminfo
-./.vimrc
-./.wget-hsts
-./BlastFrost
-./BrokenLoci
-./Data
-./Desktop
-./Documents
-./Downloads
-./Education
-./Library
-./MGG Dropbox
-./Movies
-./Music
-./Pictures
-./Programs
-./Public
-./PycharmProjects
-./dotfiles
-./output_virsorter_1158
-./output_virsorter_AATZP
-./output_virsorter_INF014
-./output_virsorter_INF078
-./output_virsorter_INF116cc
-
-find . '*' -depth 1 | sort
-kmdir output_virsorter
-mkdir output_virsorter
-mv output_virsorter_* output_virsorter
-la
-mv output_virsorter/ Data/Virsorter/
-la
-vim .gitignore 
-find . '*' -depth 1 | sort >> .gitignore
-vim .gitignore 
-find . '*' -depth 1 
-git status
-find '*' -depth 1 
-find * -depth 1 
-find * -depth 0 
-find .* -depth 0 
-ll
-la
-vim .gitconfig 
-vim .gitignore 
-la
-la 
-la | awk 'print $8'
-la | awk 'print $7'
-la | awk '{print $7}'
-la | awk '{print $9}'
-la | awk '{print $9}' 
-vim .gitignore 
-la | awk '$7 != "dotfiles" {print $7}'
-la | awk '$8 != "dotfiles" {print $8}'
-la
-la | awk '$9 != "dotfiles" {print $9}'
-la | awk '$9 != "dotfiles || . || .." {print $9}'
-la | awk '$9 != "dotfiles || $9 != . || $9 != .." {print $9}'
-la | awk '$9 != "dotfiles"  {print $9}'
-la | awk '$9 != "dotfiles" $9 != "Desktop"  {print $9}'
-la | awk '$9 != "dotfiles" || "." {print $9}'
-la | awk '$9 != "dotfiles || ." {print $9}'
-la | awk '$9 != "." {print $9}'
-la | awk '$9 != "[.]" {print $9}'
-la | awk '$9 != ".{1,2}" {print $9}'
-la | awk '$9 != "(.){1,2}" {print $9}'
-la | awk '$9 != "\.{1,2}" {print $9}'
-la | awk '$9 != "\." {print $9}'
-la | awk '$9 != "\.." {print $9}'
-la | awk '$9 != "\.\." {print $9}'
-la | awk '$9 != "\.{1}" {print $9}'
-la | awk '$9 != "\.{2}" {print $9}'
-la | awk '$9 != "\.{1,2}" {print $9}'
-la | awk '$9 != "\.{1,2}" {print $9}'
-la | awk '$9 != "\.{1,2}" {print $9}'
-la | awk '$9 != "\.{1,2}" {print $9}'
-la | awk '$9 != "\.{1,2}" {print $9}'
-la | awk '$9 != ".{1,2}" {print $9}'
-la | awk '$9 != "." {print $9}'
-la | awk '$9 != "^[A-Z]*" {print $9}'
-la | awk '$9 != "^[A-Z]*" {print $9}'
-la | awk '$9 != "^[A-Z]" {print $9}'
-la | awk '$9 != "^[A-Z]*" {print $9}'
-la | awk '$9 "^[A-Z]" {print $9}'
-la | awk '$9 ==  "^[A-Z]" {print $9}'
-la | awk '$9 ==  "^[A-Z]*" {print $9}'
-la | awk '$9 ==  "*" {print $9}'
-la | awk ' {print $9}'
-la | awk '{print $9}'
-la | awk '{$9="^[A-Z]";print $9}'
-la | awk '{$9="dotfile"; print $9}'
-la | awk '{if $9=dotfiles print $9}'
-la | awk '{if ($9=dotfiles) print $9}'
-la | awk '/dotfiles/ { print $9}'
-la | awk '/*/ { print $9}'
-la | awk '$9=dotfiles { print $9}'
-la | awk '$9 != "dotfiles" { print $9}'
-la | awk '$9 != "dotfiles" { print $9 }' >> .gitignore
-vim .gitignore 
-git status
-vim .gitignore 
-vim .gitignore 
-vim .gitignore 
-git status
-git add dotfiles
-git status
-cc
-vim .gitignore 
-vim .gitignore | grep dotfiles
-top
-jobs
-cc
-his 15
-history 15
-history 25
-cc
-cat .gitignore | grep dotfiles
-cat .gitignore | grep *
-cat .gitignore | grep *
-cat .gitignore
-cc
-git status
-la
-history 60
-git branch
-git push https://github.com/jkoszucki/dotfiles master
-git pull https://github.com/jkoszucki/dotfiles
-git push https://github.com/jkoszucki/dotfiles master
-git add .gitignore
-.gitignore
-vim .gitignore
-top
-jobs
-top
-jobs
-top
-kill 59590
-Updates were rejected because the tip of your current branch is behind
